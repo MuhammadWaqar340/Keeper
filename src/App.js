@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <Header />
-      <Note name="Hello" />
+      <Note />
       <Footer />
     </div>
   );
