@@ -17,10 +17,10 @@ function App() {
         img={contact[0].imgURL}
       />
       <Card
-        name="Mark Zuckerberg"
-        tel="+1233123443"
-        email="markzuckerberg@gmail.com"
-        img="https://upload.wikimedia.org/wikipedia/commons/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg"
+        name={contact[1].name}
+        tel={contact[2].phone}
+        email={contact[3].email}
+        img={contact[4].imgURL}
       />
     </div>
   );
