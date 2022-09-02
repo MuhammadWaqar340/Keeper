@@ -7,9 +7,9 @@ import contact from "./contact";
 function App() {
   return (
     <div>
-      {/* <Header />
+      <Header />
       <Note />
-      <Footer /> */}
+      <Footer />
       {/* <Card
         name={contact[0].name}
         tel={contact[0].phone}
@@ -22,7 +22,7 @@ function App() {
         email={contact[1].email}
         img={contact[1].imgURL}
       /> */}
-      {contact.map((contacts) => {
+      {/* {contact.map((contacts) => {
         return (
           <Card
             key={contacts.id}
@@ -32,7 +32,7 @@ function App() {
             img={contacts.imgURL}
           />
         );
-      })}
+      })} */}
     </div>
   );
 }
