@@ -1,18 +1,24 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Note from "./components/Note";
-import Card from "./components/Card";
+import Card from "./components/practiceComponents/Card";
 import contact from "./contact";
 import notes from "./notes";
+import Login from "./components/Login";
 
 function App() {
   return (
     <div>
-      <Header />
-      {notes.map((note) => {
-        return <Note key={note.id} title={note.title} content={note.content} />;
-      })}
-      <Footer />
+      {/* <Header />
+      {notes.map((noteItems) => (
+        <Note
+          key={noteItems.id}
+          title={noteItems.title}
+          content={noteItems.content}
+        />
+      ))}
+      <Footer /> */}
+      <Login />
       {/* <Cardgit 
         name={contact[0].name}
         tel={contact[0].phone}
