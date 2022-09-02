@@ -3,14 +3,17 @@ import Footer from "./components/Footer";
 import Note from "./components/Note";
 import Card from "./components/Card";
 import contact from "./contact";
+import notes from "./notes";
 
 function App() {
   return (
     <div>
       <Header />
-      <Note />
+      {notes.map((note) => {
+        return <Note key={note.id} title={note.title} content={note.content} />;
+      })}
       <Footer />
-      {/* <Card
+      {/* <Cardgit 
         name={contact[0].name}
         tel={contact[0].phone}
         email={contact[0].email}
