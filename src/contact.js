@@ -1,5 +1,6 @@
 const contact = [
   {
+    id: 1,
     name: "Elon Musk",
     imgURL:
       "https://cdn.britannica.com/45/223045-050-A6453D5D/Telsa-CEO-Elon-Musk-2014.jpg",
@@ -7,6 +8,7 @@ const contact = [
     email: "elon@gmail.com",
   },
   {
+    id: 2,
     name: "Mark Zuckerberg",
     imgURL:
       "https://upload.wikimedia.org/wikipedia/commons/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg",

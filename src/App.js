@@ -10,7 +10,7 @@ function App() {
       {/* <Header />
       <Note />
       <Footer /> */}
-      <Card
+      {/* <Card
         name={contact[0].name}
         tel={contact[0].phone}
         email={contact[0].email}
@@ -21,7 +21,18 @@ function App() {
         tel={contact[1].phone}
         email={contact[1].email}
         img={contact[1].imgURL}
-      />
+      /> */}
+      {contact.map((contacts) => {
+        return (
+          <Card
+            key={contacts.id}
+            name={contacts.name}
+            tel={contacts.phone}
+            email={contacts.email}
+            img={contacts.imgURL}
+          />
+        );
+      })}
     </div>
   );
 }
