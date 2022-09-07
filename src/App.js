@@ -5,6 +5,8 @@ import Card from "./components/practiceComponents/Card";
 import contact from "./contact";
 import notes from "./notes";
 import Login from "./components/Login";
+import Hooks from "./components/practiceComponents/Hooks";
+import GetTimeByHooks from "./components/practiceComponents/GetTimeByHooks";
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
         />
       ))}
       <Footer /> */}
-      <Login />
+      {/* <Login /> */}
+      {/* <Hooks /> */}
+      <GetTimeByHooks />
       {/* <Cardgit 
         name={contact[0].name}
         tel={contact[0].phone}

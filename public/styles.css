@@ -65,3 +65,12 @@ footer p {
   border-radius: 50%;
   border: 7px solid #fff;
 }
+
+.required label:after {
+  content: "*";
+  position: relative;
+  font-size: inherit;
+  color: rgb(161, 0, 0);
+  padding-left: 0.25rem;
+  font-weight: bold;
+}
