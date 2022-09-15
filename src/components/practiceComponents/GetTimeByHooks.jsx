@@ -14,7 +14,7 @@ const GetTimeByHooks = () => {
   const handleMouseOut = () => {
     setMouseHove(false);
   };
-  //   setInterval(updateTime, 1000);
+  setInterval(updateTime, 1000);
   return (
     <div>
       <h1>{time}</h1>

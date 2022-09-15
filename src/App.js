@@ -7,6 +7,7 @@ import notes from "./notes";
 import Login from "./components/Login";
 import Hooks from "./components/practiceComponents/Hooks";
 import GetTimeByHooks from "./components/practiceComponents/GetTimeByHooks";
+import ReactForm from "./components/practiceComponents/ReactForm";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       <Footer /> */}
       {/* <Login /> */}
       {/* <Hooks /> */}
-      <GetTimeByHooks />
+      {/* <GetTimeByHooks /> */}
+      <ReactForm />
       {/* <Cardgit 
         name={contact[0].name}
         tel={contact[0].phone}
