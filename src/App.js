@@ -9,6 +9,7 @@ import Hooks from "./components/practiceComponents/Hooks";
 import GetTimeByHooks from "./components/practiceComponents/GetTimeByHooks";
 import ReactForm from "./components/practiceComponents/ReactForm";
 import LoginForm from "./components/practiceComponents/LoginForm";
+import Todo from "./components/practiceComponents/Todo";
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/* <Hooks /> */}
       {/* <GetTimeByHooks /> */}
       {/* <ReactForm /> */}
-      <LoginForm />
+      {/* <LoginForm /> */}
+      <Todo />
       {/* <Cardgit 
         name={contact[0].name}
         tel={contact[0].phone}

@@ -10,10 +10,6 @@ const LoginForm = () => {
     const { name, value } = event.target;
 
     setcontact((preValue) => {
-      console.log(
-        "🚀 ~ file: LoginForm.jsx ~ line 13 ~ handleChange ~ preValue",
-        preValue
-      );
       return { ...preValue, [name]: value };
     });
   };
